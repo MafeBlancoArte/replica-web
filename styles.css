@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    font-family:Nunito sans;
+    font-size: 1rem;
+    font-weight: 400; 
+    background-color: #fff;
+}
+.navbar-container {
+        display: flex;
+        flex-direction: row;
+        background-color: #fff; 
+        padding: 10px;
+        padding-left: 4%;
+        box-shadow: 15px solid #9a9696;
+        align-items: center;
+        justify-content: space-between;
+        
+}
+.container-logo {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #fff;
+    scroll-margin-right: auto;
+    margin-left: auto;
+}
+.navbar-brand-logo-image {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0rem;
+    scrollbar-width: 0rem;
+    width: 107px;
+    height: 36px;
+    white-space: 0;
+}
+.navbar-scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    list-style:none;
+    margin: auto;
+}
+.nav-item{
+    margin:auto;
+    color: black
+}
+.nav-item-dropdownd{
+    color: #ff556e;
+    font-family:Open sans;
+}
+.nav-link{
+    color: black;
+    font-family: Open sans 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}    
+.nav-buttondownload{
+    color:#ff556e;
+    font-family: 14px,Open Sans, sans-serif;
+    margin: 0px 0px 0px 10px;
+    padding: 16px 24px;
+}
+h1 {
+    color: black;
+    font-family: Open Sans;
+    font-size: 1030px;
+    text-align: center;
+    font-weight: 20px;
+    padding: 10px;
+}
+p{
+    font-family: Open Sans;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    color: #5D6D7E;
+}
+.img-container {
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+   size: 2rem;
+   scrollbar-width: 0rem;
+   margin-left: 6rem;
+   
+}
